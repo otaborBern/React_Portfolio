@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
+
 const navItems = [
   "Home",
   "About",
@@ -28,7 +29,7 @@ export default function Navbar() {
     <>
       <header className="navbar">
         <a href="/" className="navbar__brand" aria-label="Homepage">
-          <img src="/logo.png" alt="Company Logo" />
+          <img src={logo} alt="Bernard Portfolio Logo" />
           <span>Portfolio</span>
         </a>
         

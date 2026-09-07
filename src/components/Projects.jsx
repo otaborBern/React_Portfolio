@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 
-import portfolioPreview from "../assets/portfolio-preview.png";
-import landingPreview from "../assets/landing-preview.png";
+import portfolioPreview from "../assets/portfolio-preview.PNG";
+import landingPreview from "../assets/landing-preview.PNG";
 
 const projects = [
   {
